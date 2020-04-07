@@ -4,6 +4,25 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Configuration
+- type: directory
+  path: exampleSite
+  label: Configuration
+  create: all
+  match: "*.toml"
+- type: heading
+  label: Data
+- type: directory
+  path: exampleSite/i18n
+  label: i18n
+  create: documents
+  match: "**/*"
+- type: directory
+  path: exampleSite
+  label: HomePage
+  create: all
+  match: "**/*"
 - type: directory
   path: exampleSite/content
   label: Pages
