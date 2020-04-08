@@ -121,6 +121,9 @@ code = "fr"
 author = "Themefisher"
 code = "en"
 description = "This is meta description"
+[menu]
+quicklink = []
+service = []
 [[menu.nav]]
 name = "about"
 url = "about"
@@ -133,33 +136,5 @@ weight = 3
 name = "contact"
 url = "contact"
 weight = 6
-[[menu.quicklink]]
-name = "partners"
-url = "about"
-weight = 1
-[[menu.quicklink]]
-name = "about"
-url = "about"
-weight = 2
-[[menu.quicklink]]
-name = "faqs"
-url = "about"
-weight = 3
-[[menu.quicklink]]
-name = "badges"
-url = "about"
-weight = 4
-[[menu.service]]
-name = "graphicdesign"
-url = "service"
-weight = 1
-[[menu.service]]
-name = "webdesign"
-url = "service"
-weight = 2
-[[menu.service]]
-name = "webdevelopment"
-url = "service"
-weight = 3
 [params]
 logo = "images/logo.png"
