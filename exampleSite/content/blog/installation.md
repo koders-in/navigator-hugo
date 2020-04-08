@@ -1,11 +1,12 @@
 ---
-title: "How To Setup Navigator Hugo"
-date: 2018-07-08T12:22:40+06:00
+title: How To Setup Navigator Hugo
+date: 2018-07-08T06:22:40.000+00:00
 image: images/blog/post-2.jpg
 author: Cersei Lannister
-description: "This is meta description"
----
+description: This is meta description
+draft: true
 
+---
 ## Install this template by following those simple steps:
 
 ### STEP-1 : Hugo installation
