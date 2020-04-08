@@ -6,6 +6,23 @@ subtitle: ''
 filtermenu: []
 item:
 - positionRight: ''
+  image: uploads/2222.jpg
+  title: ''
+  description: ''
+  icon: ''
+  number: ''
+  list: ''
+  category: ''
+  quote: ''
+  clientThumb: ''
+  clientName: ''
+  clientDesignation: ''
+  name: ''
+  price: ''
+  featurelist: ''
+  btnText: ''
+  btnURL: ''
+- positionRight: ''
   image: uploads/rusk.jpg
   title: Rusk
   description: ''
