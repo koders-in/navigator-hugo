@@ -56,7 +56,7 @@ title = "Let's Create Something Together"
 [Languages.en.params.hero]
 btnText = "Know More"
 btnURL = "https://themefisher.com/"
-button = true
+button = false
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
 enable = true
 heading = "We love to make brands grow"
