@@ -122,28 +122,44 @@ author = "Themefisher"
 code = "en"
 description = "This is meta description"
 [[menu.nav]]
-name = "contact"
-url = "contact"
-weight = 3
+name = "about"
+url = "about"
+weight = 2
 [[menu.nav]]
 name = "service"
 url = "service"
-weight = 2
+weight = 3
 [[menu.nav]]
-name = "about"
+name = "contact"
+url = "contact"
+weight = 6
+[[menu.quicklink]]
+name = "partners"
 url = "about"
 weight = 1
-[[menu.service]]
-name = "webdevelopment"
-url = "service"
+[[menu.quicklink]]
+name = "about"
+url = "about"
+weight = 2
+[[menu.quicklink]]
+name = "faqs"
+url = "about"
 weight = 3
+[[menu.quicklink]]
+name = "badges"
+url = "about"
+weight = 4
+[[menu.service]]
+name = "graphicdesign"
+url = "service"
+weight = 1
 [[menu.service]]
 name = "webdesign"
 url = "service"
 weight = 2
 [[menu.service]]
-name = "graphicdesign"
+name = "webdevelopment"
 url = "service"
-weight = 1
+weight = 3
 [params]
 logo = "images/logo.png"
