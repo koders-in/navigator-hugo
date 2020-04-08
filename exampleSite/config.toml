@@ -56,7 +56,7 @@ title = "Let's Create Something Together"
 [Languages.en.params.hero]
 btnText = ""
 btnURL = ""
-button = true
+button = false
 description = "JAI G is one of the upcoming confectionery brands of India. Shahjanpur(u.p), Indian based organization, Popular Parag food product from many years has been the source of ending cravings for tasty Rusk.\nThe company which started is an inspiration to the many firms and favorite of numerous foodies for getting the items of their desired taste. In our semi-automatic production set up, all the offered varieties are prepared in a systematic way, keeping up the high standards of hygiene & taste. Further, our customer-oriented approaches that are designed to please the clients and give them ease in working with us are also bringing to us the desired growth and success."
 enable = true
 heading = "JAI G"
