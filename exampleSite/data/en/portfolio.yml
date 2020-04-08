@@ -5,12 +5,23 @@ title: WORK SHOWCASE.
 subtitle: ''
 filtermenu: []
 item:
-- title: AirBnB Postcard
-  image: images/portfolio/portfolio-1.jpg
-  category: photography
-- title: D Design
-  image: images/portfolio/portfolio-2.jpg
-  category: ios, design
+- positionRight: ''
+  image: "/uploads/rusk.jpg"
+  title: ''
+  description: ''
+  icon: ''
+  number: ''
+  list: ''
+  category: ''
+  quote: ''
+  clientThumb: ''
+  clientName: ''
+  clientDesignation: ''
+  name: ''
+  price: ''
+  featurelist: ''
+  btnText: ''
+  btnURL: ''
 - title: Xbox 360
   image: images/portfolio/portfolio-3.jpg
   category: photography, development
