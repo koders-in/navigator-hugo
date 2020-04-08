@@ -133,22 +133,6 @@ weight = 2
 name = "about"
 url = "about"
 weight = 1
-[[menu.quicklink]]
-name = "badges"
-url = "about"
-weight = 4
-[[menu.quicklink]]
-name = "faqs"
-url = "about"
-weight = 3
-[[menu.quicklink]]
-name = "about"
-url = "about"
-weight = 2
-[[menu.quicklink]]
-name = "partners"
-url = "about"
-weight = 1
 [[menu.service]]
 name = "webdevelopment"
 url = "service"
