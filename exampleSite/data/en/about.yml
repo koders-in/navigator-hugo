@@ -2,10 +2,10 @@
 enable: true
 item:
 - positionRight: false
-  image: images/about/about-1.jpg
+  image: chef.jpg
   title: Rusk Time
-  description: " 'Snack time rusk time'\n 'A snack for everyone' \n'Bacho ki pasand
-    Jai g rusk'\n"
+  description: " Snack time rusk time\n A snack for everyone \nBacho ki pasand Jai
+    g rusk\n"
 - positionRight: true
   image: images/about/about-2.jpg
   title: We think out of the Box
