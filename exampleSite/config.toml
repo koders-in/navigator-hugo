@@ -15,8 +15,8 @@ footerAboutTitle = "About"
 footerDescription = "Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere."
 footerQuicklinkTitle = "Quicklinks"
 footerServiceTitle = "Service"
-footerSubscribeTitle = "Subscribe"
-home = "EN Home"
+footerSubscribeTitle = ""
+home = "Home"
 languageCode = "en-us"
 logo = "images/logo.png"
 menufixed = false
@@ -24,7 +24,7 @@ title = "Rusk Bakery"
 weight = 2
 [Languages.en.params.aboutSm]
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam maiores iste soluta, nihil dolorem?"
-enable = true
+enable = false
 title = "We have explored the digital landscape with passion for a long time"
 [Languages.en.params.blog]
 enable = true
@@ -122,28 +122,44 @@ author = "Themefisher"
 code = "en"
 description = "This is meta description"
 [[menu.nav]]
-name = "contact"
-url = "contact"
-weight = 3
+name = "about"
+url = "about"
+weight = 2
 [[menu.nav]]
 name = "service"
 url = "service"
-weight = 2
+weight = 3
 [[menu.nav]]
-name = "about"
+name = "contact"
+url = "contact"
+weight = 6
+[[menu.quicklink]]
+name = "partners"
 url = "about"
 weight = 1
-[[menu.service]]
-name = "webdevelopment"
-url = "service"
+[[menu.quicklink]]
+name = "about"
+url = "about"
+weight = 2
+[[menu.quicklink]]
+name = "faqs"
+url = "about"
 weight = 3
+[[menu.quicklink]]
+name = "badges"
+url = "about"
+weight = 4
+[[menu.service]]
+name = "graphicdesign"
+url = "service"
+weight = 1
 [[menu.service]]
 name = "webdesign"
 url = "service"
 weight = 2
 [[menu.service]]
-name = "graphicdesign"
+name = "webdevelopment"
 url = "service"
-weight = 1
+weight = 3
 [params]
 logo = "images/logo.png"
