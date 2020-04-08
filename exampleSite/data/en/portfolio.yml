@@ -5,7 +5,7 @@ title: WORK SHOWCASE.
 subtitle: ''
 filtermenu: []
 item:
-- positionRight: ''
+- positionRight: true
   image: uploads/a22eb8c7-2d5c-4e22-835d-bf3e3b76ab35.jpg
   title: ''
   description: ''
