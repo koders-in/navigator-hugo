@@ -32,21 +32,21 @@ subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reic
 title = "Blog."
 topTitle = "OUR UNTOLD STORY"
 [Languages.en.params.contact]
-address = "14/05, Stockhome <br> Victori Palace , United States"
+address = "Popular Parag Food Product ,NH 24 highway ,Bareilly Mord ,Shahjahanpur"
 dribbble = ""
 enable = true
 facebook = "https://www.facebook.com/"
-fax = "+61 3827 3590"
-instagram = "https://www.instagram.com/"
+fax = ""
+instagram = ""
 linkedin = "https://www.linkedin.com/"
 mapLatitude = ""
 mapLongitude = ""
 mapMarker = ""
-phone = "(03) 9283 2617"
+phone = "+91 9336191255"
 subtitle = ""
 title = "Contact Us."
 topTitle = "DROP US A NOTE"
-twitter = "https://twitter.com/"
+twitter = ""
 [Languages.en.params.cta]
 bg = "images/call-to-action/call-to-action-bg-2.jpg"
 btnText = "Contact Us"
@@ -135,6 +135,10 @@ weight = 3
 [[menu.nav]]
 name = "contact"
 url = "contact"
-weight = 6
+weight = "4"
+[[menu.nav]]
+name = "gifting"
+url = "gifting"
+weight = "5"
 [params]
 logo = "uploads/logo.png"
