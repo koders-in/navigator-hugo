@@ -57,7 +57,7 @@ title = "Let's Create Something Together"
 btnText = ""
 btnURL = ""
 button = false
-description = "JAI G is one of the upcoming confectionery brands of India. Shahjanpur(u.p), Indian based organization, Popular Parag food product from many years has been the source of ending cravings for tasty Rusk.\nThe company which started is an inspiration to the many firms and favorite of numerous foodies for getting the items of their desired taste. In our semi-automatic production set up, all the offered varieties are prepared in a systematic way, keeping up the high standards of hygiene & taste. Further, our customer-oriented approaches that are designed to please the clients and give them ease in working with us are also bringing to us the desired growth and success."
+description = "JAI G is one of the upcoming confectionery brands of India. Shahjahanpur(u.p), Indian based organization, Popular Parag food product from many years has been the source of ending cravings for tasty Rusk.\nThe company which started is an inspiration to the many firms and favorite of numerous foodies for getting the items of their desired taste. In our semi-automatic production set up, all the offered varieties are prepared in a systematic way, keeping up the high standards of hygiene & taste. Further, our customer-oriented approaches that are designed to please the clients and give them ease in working with us are also bringing to us the desired growth and success."
 enable = true
 heading = "JAI G"
 videoThumb = "uploads/ss.png"
@@ -124,17 +124,5 @@ description = "This is meta description"
 [menu]
 quicklink = []
 service = []
-[[menu.nav]]
-name = "about"
-url = "about"
-weight = 2
-[[menu.nav]]
-name = "service"
-url = "service"
-weight = 3
-[[menu.nav]]
-name = "contact"
-url = "contact"
-weight = 6
 [params]
 logo = "uploads/logo.png"
