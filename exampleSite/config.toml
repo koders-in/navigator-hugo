@@ -12,13 +12,16 @@ title = "Rusk Bakery"
 [Languages.en]
 dateFormat = "January 2, 2006"
 footerAboutTitle = "About"
-footerDescription = "Shahjanpur(u.p), Indian based organization, Popular Parag food product from many years has been the source of ending cravings for tasty Rusk."
+footerDescription = "Shahjahanpur(u.p), Indian based organization, Popular Parag food product from many years has been the source of ending cravings for tasty Rusk."
 footerQuicklinkTitle = ""
 footerServiceTitle = ""
 footerSubscribeTitle = "Subscribe"
 home = "Home"
+about="About"
+gifting="Gifting"
+service="Service"
 languageCode = "en-us"
-logo = "images/logo.png"
+logo = "/images/logo.png"
 menufixed = false
 title = "Rusk Bakery"
 weight = 2
@@ -32,21 +35,20 @@ subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reic
 title = "Blog."
 topTitle = "OUR UNTOLD STORY"
 [Languages.en.params.contact]
-address = "Popular Parag Food Product ,NH 24 highway ,Bareilly Mord ,Shahjahanpur"
+address = "14/05, Stockhome <br> Victori Palace , United States"
 dribbble = ""
 enable = true
 facebook = "https://www.facebook.com/"
-fax = ""
+fax = "+61 3827 3590"
 instagram = "https://www.instagram.com/"
 linkedin = "https://www.linkedin.com/"
 mapLatitude = ""
 mapLongitude = ""
 mapMarker = ""
-phone = "+91 9336191255"
+phone = "(03) 9283 2617"
 subtitle = ""
 title = "Contact Us."
 topTitle = "DROP US A NOTE"
-twitter = ""
 [Languages.en.params.cta]
 bg = "images/call-to-action/call-to-action-bg-2.jpg"
 btnText = "Contact Us"
@@ -57,7 +59,7 @@ title = "Let's Create Something Together"
 btnText = ""
 btnURL = ""
 button = false
-description = "JAI G is one of the upcoming confectionery brands of India. Shahjanpur(u.p), Indian based organization, Popular Parag food product from many years has been the source of ending cravings for tasty Rusk.\nThe company which started is an inspiration to the many firms and favorite of numerous foodies for getting the items of their desired taste. In our semi-automatic production set up, all the offered varieties are prepared in a systematic way, keeping up the high standards of hygiene & taste. Further, our customer-oriented approaches that are designed to please the clients and give them ease in working with us are also bringing to us the desired growth and success."
+description = "JAI G is one of the upcoming confectionery brands of India. Shahjahanpur(u.p), Indian based organization, Popular Parag food product from many years has been the source of ending cravings for tasty Rusk.\nThe company which started is an inspiration to the many firms and favorite of numerous foodies for getting the items of their desired taste. In our semi-automatic production set up, all the offered varieties are prepared in a systematic way, keeping up the high standards of hygiene & taste. Further, our customer-oriented approaches that are designed to please the clients and give them ease in working with us are also bringing to us the desired growth and success."
 enable = true
 heading = "JAI G"
 videoThumb = "uploads/ss.png"
@@ -71,7 +73,7 @@ footerServiceTitle = "FRANCAIS Services"
 footerSubscribeTitle = "FRANCAIS Subscribe"
 home = "FR Home"
 languageCode = "fr-fr"
-logo = "images/logo.png"
+logo = "uploads/logo.png"
 menufixed = false
 title = "Rusk Bakery"
 weight = 1
@@ -127,18 +129,14 @@ service = []
 [[menu.nav]]
 name = "about"
 url = "about"
-weight = 2
+weight = 3
 [[menu.nav]]
 name = "service"
 url = "service"
-weight = 3
+weight = 4
 [[menu.nav]]
 name = "contact"
 url = "contact"
-weight = "4"
-[[menu.nav]]
-name = "gifting"
-url = "gifting"
-weight = "5"
+weight = 5
 [params]
-logo = "uploads/logo.png"
+logo = "/static/images/logo2.png"
