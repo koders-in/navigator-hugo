@@ -1,0 +1,74 @@
+---
+label: work2
+hide_body: true
+fields:
+- type: boolean
+  name: enable
+  label: enable
+- type: text
+  name: topTitle
+  label: topTitle
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subtitle
+  label: subtitle
+- type: list
+  name: filtermenu
+  label: filtermenu
+- type: field_group_list
+  name: item
+  label: item
+  fields:
+  - type: boolean
+    name: positionRight
+    label: positionRight
+  - type: file
+    name: image
+    label: image
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: description
+    label: description
+  - type: text
+    name: icon
+    label: icon
+  - type: text
+    name: number
+    label: number
+  - type: text
+    name: list
+    label: list
+  - type: text
+    name: category
+    label: category
+  - type: text
+    name: quote
+    label: quote
+  - type: text
+    name: clientThumb
+    label: clientThumb
+  - type: text
+    name: clientName
+    label: clientName
+  - type: text
+    name: clientDesignation
+    label: clientDesignation
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: price
+    label: price
+  - type: text
+    name: featurelist
+    label: featurelist
+  - type: text
+    name: btnText
+    label: btnText
+  - type: text
+    name: btnURL
+    label: btnURL

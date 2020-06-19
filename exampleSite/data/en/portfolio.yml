@@ -5,6 +5,23 @@ title: WORK SHOWCASE.
 subtitle: ''
 filtermenu: []
 item:
+- positionRight: ''
+  image: uploads/edited.jpeg
+  title: ''
+  description: ''
+  icon: ''
+  number: ''
+  list: ''
+  category: ''
+  quote: ''
+  clientThumb: ''
+  clientName: ''
+  clientDesignation: ''
+  name: ''
+  price: ''
+  featurelist: ''
+  btnText: ''
+  btnURL: ''
 - positionRight: false
   image: uploads/ac.jpg
   title: ''

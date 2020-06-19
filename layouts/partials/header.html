@@ -10,7 +10,7 @@
             <div class="col-md-12">
                 <nav class="navbar navbar-expand-md">
                     <a class="navbar-brand" href="{{ .Site.BaseURL }}">
-                        <img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}">
+                        <img src="{{ .Site.Params.logo | absURL }}" width="100px" height="100px" alt="{{ .Site.Title }}">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
                         aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,10 +25,31 @@
                     </div>
                     <div class="collapse navbar-collapse" id="navigation">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
+                         <!--   <li class="nav-item">
                                 <a class="nav-link"
                                     href="{{ .Site.BaseURL }}">{{ with .Site.Params.home }}{{ . }}{{ end }}</a>
+                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="{{ .Site.BaseURL }}"><i class="tf-ion-ios-home"></i></a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="{{ .Site.BaseURL }}"><i class="tf-ion-ios-telephone"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="{{ .Site.BaseURL }}">{{ with .Site.Params.about }}{{ . }}{{ end }}</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="{{ .Site.BaseURL }}">{{ with .Site.Params.service }}{{ . }}{{ end }}</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="{{ .Site.BaseURL }}">{{ with .Site.Params.gifting }}{{ . }}{{ end }}</a>
+                            </li>
+
                             {{ range .Site.Menus.nav }}
                             {{ if .HasChildren }}
                             <li class="nav-item dropdown">
