@@ -6,10 +6,4 @@ item:
   title: Rusk Time
   description: " Snack time rusk time\n A snack for everyone \nBacho ki pasand Jai
     g rusk\n"
-- positionRight: true
-  image: images/about/about-2.jpg
-  title: We think out of the Box
-  description: |+
-    The popular Parag food product is a purely vegetarian confectionery maker
-     and are specialized in elaichi and oven products
-
+  list: []
