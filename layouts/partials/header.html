@@ -1,11 +1,12 @@
+
 {{ "<!-- Fixed Navigation -->" | safeHTML }}
 <!-- <section class="top-bar animated-header"> emprunt depuis timer theme -->
 {{ if .Site.Params.menufixed }}
-<section class="header navigation top-bar animated-header">
+<section class="header navigation top-bar animated-header" id ="header">
 {{ else }}
 <section class="header navigation">
 {{ end }}
-    <div class="container">
+    <div class="container" id ="header"> 
         <div class="row">
             <div class="col-md-12">
                 <nav class="navbar navbar-expand-md">
@@ -30,24 +31,41 @@
                                     href="{{ .Site.BaseURL }}">{{ with .Site.Params.home }}{{ . }}{{ end }}</a>
                             </li> -->
                             <li class="nav-item">
+                                {{ $data := index .Site.Data .Site.Language.Lang }}
+                                    {{ with $data }}  
                                 <a class="nav-link"
                                     href="{{ .Site.BaseURL }}"><i class="tf-ion-ios-home"></i></a>
+                                    {{end}}
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link"
                                     href="#contact"><i class="tf-ion-ios-telephone"></i></a>
+                                    {{ $data := index .Site.Data .Site.Language.Lang }}
+                                    {{ with $data }}
+                                    {{end}}
                             </li>
+                            
                             <li class="nav-item">
+                               
                                 <a class="nav-link"
                                     href="#about">{{ with .Site.Params.about }}{{ . }}{{ end }}</a>
+                                    {{ $data := index .Site.Data .Site.Language.Lang }}
+                                    {{ with $data }}
+                                    {{end}}
                             </li> 
                             <li class="nav-item">
                                 <a class="nav-link"
-                                    href="#portfolio">{{ with .Site.Params.service }}{{ . }}{{ end }}</a>
+                                    href="#service">{{ with .Site.Params.service }}{{ . }}{{ end }}</a>
+                                    {{ $data := index .Site.Data .Site.Language.Lang }}
+                                    {{ with $data }}
+                                    {{end}}
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link"
                                     href="#contact">{{ with .Site.Params.gifting }}{{ . }}{{ end }}</a>
+                                    {{ $data := index .Site.Data .Site.Language.Lang }}
+                                    {{ with $data }}
+                                    {{end}}
                             </li>
 
                             {{ range .Site.Menus.nav }}
@@ -76,3 +94,5 @@
         </div>
     </div>
 </section>
+
+

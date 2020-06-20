@@ -35,17 +35,16 @@ subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reic
 title = "Blog."
 topTitle = "OUR UNTOLD STORY"
 [Languages.en.params.contact]
-address = "14/05, Stockhome <br> Victori Palace , United States"
+address = "Popular Parag Food Product,NH 24 highway <br> Bareilly Mord ,Shahjahanpur"
 dribbble = ""
 enable = true
 facebook = "https://www.facebook.com/"
-fax = "+61 3827 3590"
 instagram = "https://www.instagram.com/"
 linkedin = "https://www.linkedin.com/"
 mapLatitude = ""
 mapLongitude = ""
 mapMarker = ""
-phone = "(03) 9283 2617"
+phone = "+91 9336191255"
 subtitle = ""
 title = "Contact Us."
 topTitle = "DROP US A NOTE"
@@ -62,64 +61,64 @@ button = false
 description = "JAI G is one of the upcoming confectionery brands of India. Shahjahanpur(u.p), Indian based organization, Popular Parag food product from many years has been the source of ending cravings for tasty Rusk.\nThe company which started is an inspiration to the many firms and favorite of numerous foodies for getting the items of their desired taste. In our semi-automatic production set up, all the offered varieties are prepared in a systematic way, keeping up the high standards of hygiene & taste. Further, our customer-oriented approaches that are designed to please the clients and give them ease in working with us are also bringing to us the desired growth and success."
 enable = true
 heading = "JAI G"
-videoThumb = "uploads/Home.jpg"
-[Languages.fr]
-dateFormat = "2 January 2006"
-footerAboutTitle = "FRANCAIS About"
-footerDescription = "FRANCAIS Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere."
-footerQuicklinkTitle = "FRANCAIS Quick links"
-footerServiceTitle = "FRANCAIS Services"
-footerSubscribeTitle = "FRANCAIS Subscribe"
-home = "FR Home"
-languageCode = "fr-fr"
-logo = "uploads/logo.png"
+videoThumb = "uploads/home.jpg"
+[Languages.hin]
+dateFormat = "January 2, 2006"
+footerAboutTitle = "About"
+footerDescription = "Shahjahanpur(u.p), Indian based organization, Popular Parag food product from many years has been the source of ending cravings for tasty Rusk."
+footerQuicklinkTitle = ""
+footerServiceTitle = ""
+footerSubscribeTitle = "Subscribe"
+home = "Home"
+about="About"
+gifting="Gifting"
+service="Service"
+languageCode = "en-us"
+logo = "/images/logo.png"
 menufixed = false
 title = "Rusk Bakery"
-weight = 1
-[Languages.fr.params.aboutSm]
+weight = 2
+[Languages.hin.params.aboutSm]
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam maiores iste soluta, nihil dolorem?"
-enable = true
-title = "FRANCAIS We have explored the digital landscape with passion for a long time"
-[Languages.fr.params.blog]
-enable = true
+enable = false
+title = "We have explored the digital landscape with passion for a long time"
+[Languages.hin.params.blog]
+enable = false
 subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
-title = "FRANCAIS Blog."
+title = "Blog."
 topTitle = "OUR UNTOLD STORY"
-[Languages.fr.params.contact]
-address = "14/05, Stockhome <br> Victori Palace , United States"
-dribbble = "https://dribbble.com/"
+[Languages.hin.params.contact]
+address = "Popular Parag Food Product,NH 24 highway <br> Bareilly Mord ,Shahjahanpur"
+dribbble = ""
 enable = true
 facebook = "https://www.facebook.com/"
-fax = "+61 3827 3590"
 instagram = "https://www.instagram.com/"
 linkedin = "https://www.linkedin.com/"
-mapLatitude = "51.507351"
-mapLongitude = "-0.127758"
-mapMarker = "images/marker.png"
-phone = "(03) 9283 2617"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
-title = "FRANCAIS Contact Us."
+mapLatitude = ""
+mapLongitude = ""
+mapMarker = ""
+phone = "+91 9336191255"
+subtitle = ""
+title = "Contact Us."
 topTitle = "DROP US A NOTE"
-twitter = "https://twitter.com/"
-[Languages.fr.params.cta]
+[Languages.hin.params.cta]
 bg = "images/call-to-action/call-to-action-bg-2.jpg"
-btnText = "Nous contacter"
-enable = true
+btnText = "Contact Us"
+enable = false
 subtitle = "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
-title = "FRANCAIS Let's Create Something Together"
-[Languages.fr.params.hero]
-btnText = "Know More"
-btnURL = "https://themefisher.com/"
-button = true
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
+title = "Let's Create Something Together"
+[Languages.hin.params.hero]
+btnText = ""
+btnURL = ""
+button = false
+description = "JAI G is one of the upcoming confectionery brands of India. Shahjahanpur(u.p), Indian based organization, Popular Parag food product from many years has been the source of ending cravings for tasty Rusk.\nThe company which started is an inspiration to the many firms and favorite of numerous foodies for getting the items of their desired taste. In our semi-automatic production set up, all the offered varieties are prepared in a systematic way, keeping up the high standards of hygiene & taste. Further, our customer-oriented approaches that are designed to please the clients and give them ease in working with us are also bringing to us the desired growth and success."
 enable = true
-heading = "FRANCAIS We love to make brands grow"
-videoThumb = "images/slider/video-player-thumb.jpg"
-videoURL = "https://www.youtube.com/embed/g3-VxLQO7do"
+heading = "JAI G"
+videoThumb = "uploads/home.jpg"
 [[Params.listeLangues]]
-code = "fr"
+code = "hin"
 [[Params.listeLangues]]
-author = "Themefisher"
+author = "Koders"
 code = "en"
 description = "This is meta description"
 [menu]
