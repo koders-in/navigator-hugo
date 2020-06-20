@@ -62,8 +62,7 @@ button = false
 description = "JAI G is one of the upcoming confectionery brands of India. Shahjahanpur(u.p), Indian based organization, Popular Parag food product from many years has been the source of ending cravings for tasty Rusk.\nThe company which started is an inspiration to the many firms and favorite of numerous foodies for getting the items of their desired taste. In our semi-automatic production set up, all the offered varieties are prepared in a systematic way, keeping up the high standards of hygiene & taste. Further, our customer-oriented approaches that are designed to please the clients and give them ease in working with us are also bringing to us the desired growth and success."
 enable = true
 heading = "JAI G"
-videoThumb = "uploads/ss.png"
-videoURL = "https://www.youtube.com/embed/g3-VxLQO7do"
+videoThumb = "uploads/Home.jpg"
 [Languages.fr]
 dateFormat = "2 January 2006"
 footerAboutTitle = "FRANCAIS About"
@@ -126,5 +125,4 @@ description = "This is meta description"
 [menu]
 quicklink = []
 service = []
-[params]
-logo = "/static/images/logo2.png"
+

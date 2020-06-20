@@ -142,7 +142,7 @@
 		to determine if there was an error or not */
 		var error = false;
 		var name = $('#name').val();
-		var email = $('#email').val();
+		//var email = $('#email').val();
 		var subject = $('#subject').val();
 		var message = $('#message').val();
 	
@@ -163,12 +163,12 @@
 		} else {
 			$('#name').css("border-color", "#666");
 		}
-		if (email.length == 0 || email.indexOf('@') == '-1') {
+		/*if (email.length == 0 || email.indexOf('@') == '-1') {
 			var error = true;
 			$('#email').css("border-color", "#D8000C");
 		} else {
 			$('#email').css("border-color", "#666");
-		}
+		} */
 		if (subject.length == 0) {
 			var error = true;
 			$('#subject').css("border-color", "#D8000C");
@@ -181,15 +181,20 @@
 		} else {
 			$('#message').css("border-color", "#666");
 		}
-	
+		function sendMail()
+			{
+
+				var mail="mailto:?subject="+subject+"&body="+message+'%0D%0A'+'%0D%0A'+"Regards, "+name;
+				window = window.open(mail, 'emailWindow')
+			}
 		//now when the validation is done we check if the error variable is false (no errors)
 		if (error == false) {
 			//disable the submit button to avoid spamming
 			//and change the button text to Sending...
 			$('#contact-submit').attr({
 				'disabled': 'false',
-				'value': 'Sending...'
 			});
+			sendMail()
 	
 			/* using the jquery's post(ajax) function and a lifesaver
 			function serialize() which gets all the data from the form

@@ -35,19 +35,19 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link"
-                                    href="{{ .Site.BaseURL }}"><i class="tf-ion-ios-telephone"></i></a>
+                                    href="#contact"><i class="tf-ion-ios-telephone"></i></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link"
-                                    href="{{ .Site.BaseURL }}">{{ with .Site.Params.about }}{{ . }}{{ end }}</a>
+                                    href="#about">{{ with .Site.Params.about }}{{ . }}{{ end }}</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="#portfolio">{{ with .Site.Params.service }}{{ . }}{{ end }}</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link"
-                                    href="{{ .Site.BaseURL }}">{{ with .Site.Params.service }}{{ . }}{{ end }}</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link"
-                                    href="{{ .Site.BaseURL }}">{{ with .Site.Params.gifting }}{{ . }}{{ end }}</a>
+                                    href="#contact">{{ with .Site.Params.gifting }}{{ . }}{{ end }}</a>
                             </li>
 
                             {{ range .Site.Menus.nav }}
