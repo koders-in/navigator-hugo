@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <div class="title text-center">
+                <div class="title text-center" style="font-family: Helvetica Rounded;">
                     {{ with .Site.Params.contact.topTitle }}<h4>{{.}}</h4>{{ end }}
                     {{ with .Site.Params.contact.title }}
                     <h2>{{.}}</h2>
@@ -58,14 +58,14 @@
             <div class="col-12 col-md-4">
                 <div class="address-block contact-meta-block">
                     <i class="tf-ion-android-pin"></i>
-                    <h4>Our Location</h4>
+                    <h4 style="font-family: Helvetica Rounded;color:#3c1414">Our Location</h4>
                     {{ with .Site.Params.contact.address }}<p>{{ . | safeHTML }}</p>{{ end }}
                 </div>
             </div>
             <div class="col-12 col-md-4">
                 <div class="phone-block contact-meta-block">
                     <i class="tf-ion-ios-telephone"></i>
-                    <h4>Call Us</h4>
+                    <h4 style="font-family: Helvetica Rounded;color:#3c1414">Call Us</h4>
                     <p>
                          {{ with .Site.Params.contact.phone }}Office: {{.}} {{ end }} 
                         
@@ -75,7 +75,7 @@
             <div class="col-12 col-md-4">
                 <div class="social-icons-block contact-meta-block">
                     <i class="tf-ion-ios-contact"></i>
-                    <h4>We are social</h4>
+                    <h4 style="font-family: Helvetica Rounded;color:#3c1414"    >We are social</h4>
                     <ul class="list-inline social-icon">
                         {{ with .Site.Params.contact.facebook }}
                         <li class="list-inline-item">

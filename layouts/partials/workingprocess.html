@@ -23,9 +23,9 @@
             <div class="row justify-content-center">
                 {{ range $index,  $element:= .item }}
                     <div class="col-md-4 col-sm-6 p-0">
-                        <div class="service-item text-center">
+                        <div class="service-item text-center" style="background-color:#A50104 ;">
                             {{ with .number }}
-                                <span class="count">{{ . }}.</span>
+                                <span style="font-size: 30px;" class="count">{{ . }}.</span>
                             {{ end }}
                             {{ with .icon }}
                                 <i class="{{ . }}"></i>
