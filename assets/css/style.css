@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700");
+@font-face { font-family:Kruti; src: url('font.ttf'); } 
 body {
   line-height: 1.4;
   font-family: "Titillium Web", sans-serif;
@@ -595,7 +596,7 @@ a:focus, a:hover {
 }
 
 .hero-area .block h2 {
-  font-size: 48px;
+  font-size: 30px;
   margin-bottom: 20px;
   font-family:Helvetica Rounded;
 }
@@ -603,8 +604,8 @@ a:focus, a:hover {
 .hero-area .block p {
   color: #ffffff;
   margin-bottom: 20px;
-  font-family:Gadugi;
-  font-size:18px;
+  font-family:Helvetica Rounded;
+  font-size:16px;
 }
 
 .hero-area .block .list-inline {
@@ -735,7 +736,7 @@ a:focus, a:hover {
   line-height: 1.6;
   font-family:Gadugi;
   font-weight:bold;
-  
+  color:#3c1414;
   margin-top: 20px;
 }
 
@@ -1054,6 +1055,27 @@ a:focus, a:hover {
 /*=================================================================
   Portfolio section
 ==================================================================*/
+.portfolio h2 {
+  font-size: 30px;
+  font-family:Helvetica Rounded;
+  font-weight: bold;
+  color:#3c1414;
+  margin-top: 0;
+}
+
+
+.portfolio h4 {
+  font-size: 14px;
+  color: #3c1414;
+  font-family:Helvetica Rounded;
+  letter-spacing: 1px;
+}
+.portfolio p {
+  font-size: 14px;
+  color: #3c1414;
+  font-family:Helvetica Rounded;
+  letter-spacing: 1px;
+}
 .portfolio-filter {
   margin-bottom: 40px;
   text-align: center;
@@ -1237,7 +1259,7 @@ a:focus, a:hover {
 }
 .service-2 p {
   font-size: 14px;
-  color: #f3f3f3;
+  color: #3c1414;
   font-family:Helvetica Rounded;
   letter-spacing: 1px;
 }

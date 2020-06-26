@@ -4,10 +4,10 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <div class="title text-center" style="font-family: Helvetica Rounded;">
-                    {{ with .Site.Params.contact.topTitle }}<h4>{{.}}</h4>{{ end }}
+                <div class="title text-center" >
+                    {{ with .Site.Params.contact.topTitle }}<h4 style="color:#3c1414;font-family: Helvetica Rounded;">{{.}}</h4>{{ end }}
                     {{ with .Site.Params.contact.title }}
-                    <h2>{{.}}</h2>
+                    <h2  style="color:#3c1414;font-family: Helvetica Rounded;">{{.}}</h2>
                     <span class="border"></span>
                     {{ end }}
                     {{ with .Site.Params.contact.subtitle }}<p>{{.}}</p>{{ end }}
@@ -57,16 +57,16 @@
         <div class="row">
             <div class="col-12 col-md-4">
                 <div class="address-block contact-meta-block">
-                    <i class="tf-ion-android-pin"></i>
-                    <h4 style="font-family: Helvetica Rounded;color:#3c1414">Our Location</h4>
-                    {{ with .Site.Params.contact.address }}<p>{{ . | safeHTML }}</p>{{ end }}
+                    <i class="tf-ion-android-pin" style="color:#3c1414;"></i>
+                    <h4  style="color:#3c1414;font-family: Helvetica Rounded;font-weight: bold;">Our Location</h4>
+                    {{ with .Site.Params.contact.address }}<p  style="color:#3c1414;font-family: Helvetica Rounded;font-weight: bold;">{{ . | safeHTML }}</p>{{ end }}
                 </div>
             </div>
             <div class="col-12 col-md-4">
                 <div class="phone-block contact-meta-block">
-                    <i class="tf-ion-ios-telephone"></i>
+                    <i class="tf-ion-ios-telephone" style="color:#3c1414;"></i>
                     <h4 style="font-family: Helvetica Rounded;color:#3c1414">Call Us</h4>
-                    <p>
+                    <p  style="color:#3c1414;font-family: Helvetica Rounded;font-weight: bold;">
                          {{ with .Site.Params.contact.phone }}Office: {{.}} {{ end }} 
                         
                     </p>
@@ -74,8 +74,8 @@
             </div>
             <div class="col-12 col-md-4">
                 <div class="social-icons-block contact-meta-block">
-                    <i class="tf-ion-ios-contact"></i>
-                    <h4 style="font-family: Helvetica Rounded;color:#3c1414"    >We are social</h4>
+                    <i class="tf-ion-ios-contact"  style="color:#3c1414;"></i>
+                    <h4 style="font-family: Helvetica Rounded;color:#3c1414">We are social</h4>
                     <ul class="list-inline social-icon">
                         {{ with .Site.Params.contact.facebook }}
                         <li class="list-inline-item">

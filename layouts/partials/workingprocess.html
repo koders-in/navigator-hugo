@@ -15,7 +15,7 @@
                             <span class="border"></span>
                         {{ end }}
                         {{ with .subtitle }}
-                            <p>{{ . }}</p>
+                            <p style="color:#f3f3f3 ;">{{ . }}</p>
                         {{ end }}
                     </div>
                 </div>
@@ -23,15 +23,15 @@
             <div class="row justify-content-center">
                 {{ range $index,  $element:= .item }}
                     <div class="col-md-4 col-sm-6 p-0">
-                        <div class="service-item text-center" style="background-color:#A50104 ;">
+                        <div class="service-item text-center" style="background-color:#f3f3f3 ;">
                             {{ with .number }}
-                                <span style="font-size: 30px;" class="count">{{ . }}.</span>
+                                <span style="font-size: 30px;color:#3c1414 ;" class="count">{{ . }}.</span>
                             {{ end }}
                             {{ with .icon }}
                                 <i class="{{ . }}"></i>
                             {{ end }}
                             {{ with .title }}
-                                <h4>{{ . }}</h4>
+                                <h4 style="color:#3c1414 ;">{{ . }}</h4>
                             {{ end }}
                             {{ with .description }}
                                 <p>{{ . }}</p>
