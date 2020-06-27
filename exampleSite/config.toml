@@ -21,7 +21,7 @@ about="About"
 gifting="Gifting"
 service="Service"
 languageCode = "en-us"
-logo = "/images/logo.png"
+logo = "/images/logo3.png"
 menufixed = false
 title = "Rusk Bakery"
 weight = 2
@@ -61,7 +61,7 @@ button = false
 description = "JAI G is one of the upcoming confectionery brands of India. Shahjahanpur(U.P), Indian based organization, Popular Parag food product from many years has been the source of ending cravings for tasty Rusk.\nThe company which started is an inspiration to the many firms and favorite of numerous foodies for getting the items of their desired taste. In our semi-automatic production set up, all the offered varieties are prepared in a systematic way, keeping up the high standards of hygiene & taste. Further, our customer-oriented approaches that are designed to please the clients and give them ease in working with us are also bringing to us the desired growth and success."
 enable = true
 heading = "JAI G"
-videoThumb = "uploads/home2.jpg"
+videoThumb = "uploads/home2.png"
 [Languages.hin]
 dateFormat = "January 2, 2006"
 footerAboutTitle = "About"
@@ -74,7 +74,7 @@ about="About"
 gifting="Gifting"
 service="Service"
 languageCode = "en-us"
-logo = "/images/logo.png"
+logo = "/images/logo3.png"
 menufixed = false
 title = "Rusk Bakery"
 weight = 2
@@ -114,7 +114,7 @@ button = false
 description = "JAI G bhaarat ke aagaamee kanphekshanaree braandon mein se ek hai. Shahajahanpur (U.P), bhaarateey aadhaarit sangathan, kaee varshon se lokapriy Popular Parag Food Product, svaadisht rusk ka srot hai. Jis kampanee ne shuruaat kee vah kaee pharmon ke lie ek prerana hai aur apane pasandeeda svaad kee vastuon ko praapt karane ke lie kaee khaady padaarthon kee pasandeeda hai. Hamaare ardh-svachaalit utpaadan kee sthaapana mein, sabhee prastaavit kismon ko ek vyavasthit tareeke se taiyaar kiya jaata hai, jo svachchhata aur svaad ke uchch maanakon ko banae rakhata hai. isake alaava, hamaare graahak-unmukh drshtikon jo graahakon ko khush karane ke lie dizain kie gae hain aur hamaare saath kaam karane mein aasaanee pradaan karate hain, ve hamaare lie vaanchhit vikaas aur saphalata bhee la rahe hain."
 enable = true
 heading = "JAI G"
-videoThumb = "uploads/home2.jpg"
+videoThumb = "uploads/home2.png"
 [[Params.listeLangues]]
 code = "hin"
 [[Params.listeLangues]]

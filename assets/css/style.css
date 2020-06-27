@@ -1107,13 +1107,25 @@ a:focus, a:hover {
 }
 
 .portfolio-items-wrapper li {
-  width: 32.33%;
+
 }
 
 .portfolio-block {
   position: relative;
   transition: .3s all;
   overflow: hidden;
+  margin-left:400px;
+  width:100%;
+}
+@media (max-width: 768px) {
+  .portfolio-block {
+    margin-left: 200px;
+  }
+}
+@media (max-width: 400px) {
+  .portfolio-block {
+    margin-left: 100px;
+  }
 }
 
 .portfolio-block:before {
