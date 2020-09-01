@@ -469,7 +469,7 @@ a:focus, a:hover {
 
 .navigation {
   transition: .3s all;
-  background: #9D0208;
+  background: #A50104;
 }
 
 .navigation .navbar-nav > li.active a {
@@ -477,7 +477,7 @@ a:focus, a:hover {
 }
 
 .navigation .navbar-nav > li > a {
-  color: #ffffff;
+  color: #3c1414;
   font-size: 23px;
   font-family:Aller;
   font-weight:Bold;
@@ -575,7 +575,7 @@ a:focus, a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #F48C06;
+  background: #590004;
 }
 
 @media (max-width: 480px) {
@@ -585,7 +585,7 @@ a:focus, a:hover {
 }
 
 .hero-area .block {
-  color: #370617;
+  color: #fff;
   padding-left: 30px;
 }
 
@@ -602,9 +602,8 @@ a:focus, a:hover {
 }
 
 .hero-area .block p {
-  color: #370617;
+  color: #ffffff;
   margin-bottom: 20px;
-  font-weight: bold;
   font-family:Helvetica Rounded;
   font-size:16px;
 }
@@ -1252,20 +1251,20 @@ a:focus, a:hover {
   }
 }
 .service-2 {
-  background: #F48C06;
+  background: #590004;
 }
 .service-2 h2 {
   font-size: 40px;
   font-family:Helvetica Rounded;
   font-weight: bold;
-  color:#370617;
+  color:#ffffff;
   margin-top: 0;
 }
 
 
 .service-2 h4 {
   font-size: 14px;
-  color: #370617;
+  color: #f3f3f3;
   font-family:Helvetica Rounded;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -1278,7 +1277,7 @@ a:focus, a:hover {
 }
 
 .service-2 .service-item {
-  background: #370617;
+  background: #fff;
   border: 1px solid #eee;
   padding: 50px 20px;
   margin-right: -1px;
@@ -1291,7 +1290,7 @@ a:focus, a:hover {
   position: absolute;
   top: 0;
   left: 20px;
-  color: #370617;
+  color: #f3f1f1;
   font-weight: 700;
 }
 
@@ -1772,7 +1771,7 @@ a:focus, a:hover {
   Footer section
 ==================================================================*/
 .top-footer {
-  background-color: #9D0208;
+  background-color: #3c1414;
   border-top: 1px solid #404040;
   padding: 100px 0 80px;
 }
@@ -1780,8 +1779,8 @@ a:focus, a:hover {
 .top-footer h3 {
   font-size: 16px;
   line-height: 1.5;
-  color: #ffffff;
-  font-weight: bold;
+  color: #fff;
+  font-weight: 400;
   font-family:Helvetica Rounded;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1791,9 +1790,9 @@ a:focus, a:hover {
 .top-footer p {
   font-size: 13px;
   line-height: 30px;
-  color: #ffffff;
+  color: #bdbdbd;
   font-family:Helvetica Rounded;
-  font-weight: bold;
+  font-weight: 300;
   padding-right: 20px;
 }
 
@@ -1815,7 +1814,7 @@ a:focus, a:hover {
 
 .footer-bottom {
   text-align: center;
-  background-color: #F48C06 ;
+  background-color: #A50104 ;
   border-top: 1px solid #2c2c2c;
   padding: 30px 0;
 }
