@@ -6,9 +6,13 @@
                 <div class="container">
                     {{ range .item }}
                         {{ if .positionRight }}
-                            <div class="row mt-50 justify-content-center">
+                        
+                            <div class="row mt-80 justify-content-center">
+                               
                                 <div class="row">
                                     <div class="col">
+                                        <div id="image" style="background-image: url('/images/img.jpg'); background-size: 80% 100%; background-color: rgba(255,255,255,0.5);
+    background-blend-mode: overlay;" class="img-fluid rounded shadow" alt="about-image" >
                                         <div class="title text-center">
                                             {{ with .topTitle }}
                                                 <h4>{{ . }}</h4>

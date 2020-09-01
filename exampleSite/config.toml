@@ -54,14 +54,7 @@ btnText = "Contact Us"
 enable = false
 subtitle = "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
 title = "Let's Create Something Together"
-[Languages.en.params.hero]
-btnText = ""
-btnURL = ""
-button = false
-description = "JAI G is one of the upcoming confectionery brands of India. Shahjahanpur(U.P), Indian based organization, Popular Parag food product from many years has been the source of ending cravings for tasty Rusk.\nThe company which started is an inspiration to the many firms and favorite of numerous foodies for getting the items of their desired taste. In our semi-automatic production set up, all the offered varieties are prepared in a systematic way, keeping up the high standards of hygiene & taste. Further, our customer-oriented approaches that are designed to please the clients and give them ease in working with us are also bringing to us the desired growth and success."
-enable = true
-heading = "JAI G"
-videoThumb = "uploads/home2.png"
+
 [Languages.hin]
 dateFormat = "January 2, 2006"
 footerAboutTitle = "About"

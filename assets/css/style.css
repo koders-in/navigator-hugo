@@ -576,6 +576,7 @@ a:focus, a:hover {
       -ms-flex-align: center;
           align-items: center;
   background: #590004;
+  background-image: none;
 }
 
 @media (max-width: 480px) {
@@ -709,7 +710,10 @@ a:focus, a:hover {
 ==================================================================*/
 .about {
   background: #fff;
+  overflow:hidden;
+  position:relative;
 }
+
 
 .about h2 {
   font-size: 40px;
@@ -730,6 +734,7 @@ a:focus, a:hover {
   color: #D0312D;
   letter-spacing: 1px;
   text-transform: uppercase;
+ 
 }
 
 .about p {
@@ -738,6 +743,7 @@ a:focus, a:hover {
   font-weight:bold;
   color:#3c1414;
   margin-top: 20px;
+  
 }
 
 .about .content {
